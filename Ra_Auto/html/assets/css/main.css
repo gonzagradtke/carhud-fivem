@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Roboto&display=swap');
+
+* {
+    font-family: Roboto;
+}
+
+.carhud {
+    position: absolute;
+    bottom: 3.1vw;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 8.1vw;
+    height: 3.9vw;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: .2vw;
+    box-shadow: 0 0 .4vw #ffffff00;
+}
+
+.km {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0;
+    font-size: 2.4vw;
+}
+
+.km-text {
+    position: relative;
+    bottom: 0.1vw;
+    left: 0.05vw;
+    text-shadow: 0 0 .4vw rgb(255, 0, 0);
+    color: #ff0000;
+}
+
+.km-span {
+    position: relative; 
+    bottom: 0.5vw;
+    left: 0.1vw;
+    font-size: .5vw;
+    text-shadow: 0 0 .4vw rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
